@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-kanit: "Kanit", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --color-primary: #1E40AE;
+  --color-accent-blue-light: #3B82F5;
+  --color-accent-blue-dark: #477EFC;
+  --color-primary-black: #202938;
+  --color-accent-gray-dark: #2A3342;
+  --color-accent-gray-medium: #80878D;
+  --color-accent-gray-light: #D2D2D2;
+  --color-primary-white: #FFFFFF;
+  --color-primary-red: #EC4441;
+  --color-accent-red-dark: #7B3943;
+  --color-accent-red-light: #FEE1DE;
+  --color-primary-green: #26C561;
+  --color-accent-green-light: #DCFDEA;
+  --color-accent-green-dark: #5F866B;
+  --color-primary-yellow: #E9B108;
+  --color-accent-yellow-light: #FCF9C4;
+  --color-accent-yellow-dark: #806F37;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
